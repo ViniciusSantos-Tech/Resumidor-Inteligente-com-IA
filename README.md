@@ -15,6 +15,19 @@ Espere alguns segundos
 Receba um resumo completo
 ```
 
+## 2. Configuração da API Key:
+````bash
+# No código, substitua 'sua_chave_aqui' pela sua chave da OpenAI:
+# api_key='sua_chave_aqui'
+````
+## 💡 Como obter a chave:
+
+- Acesse https://platform.openai.com/api-keys
+
+- Crie uma nova API key
+
+- Cole no código substituindo 'sua_chave_aqui'
+
 ## Funcionalidades:
 - ✅ Lê arquivos CSV de qualquer tamanho
 
