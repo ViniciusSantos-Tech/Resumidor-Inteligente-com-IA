@@ -1,72 +1,71 @@
-# CSV Genius - Resumidor com IA
+# CSV Genius – AI-Powered Summarizer
+
 ![Python](https://img.shields.io/badge/Python-3.8+-blue)
 ![OpenAI](https://img.shields.io/badge/OpenAI-GPT--4-green)
 ![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-orange)
 ![Streamlit](https://img.shields.io/badge/Streamlit-Web%2520App-red)
 
-## Uma ferramenta web poderosa que utiliza Inteligência Artificial para analisar e resumir arquivos CSV automaticamente. Transforme dados brutos em insights valiosos em segundos!
+## A powerful web tool that uses Artificial Intelligence to automatically analyze and summarize CSV files. Transform raw data into valuable insights in seconds!
 
-## 🚀 Como Usar:
-- Instale as dependências:
+## 🚀 How to Use
+
+### Install the dependencies
 ```
 pip install pandas openai streamlit
-Execute o aplicativo:
-streamlit run resumidor_csv_ia.py
 ```
-## 📋 Fluxo de Uso:
-- Acesse a aplicação web no navegador
-
-- Faça upload do arquivo CSV
-
-- Aguarde alguns segundos
-
-- Receba um resumo completo gerado por IA
-
-# 🔑 Configuração da API Key:
-
- ## No código, substitua 'sua_chave_aqui' pela sua chave da OpenAI:
- ```
-api_key='sua_chave_aqui'
+- Run the application
 ````
-## 💡 Como obter a chave:
-- Acesse https://platform.openai.com/api-keys
+streamlit run resumidor_csv_ia.py
+`````
+## 📋 Usage Flow
+- Open the web application in your browser
+- Upload the CSV file
+- Wait a few seconds
+- Receive a complete AI-generated summary
 
-- Crie uma nova API key
+## 🔑 API Key Configuration
+## In the code, replace your_api_key_here with your OpenAI API key:
+````
+api_key='your_api_key_here'
+````
+## 💡 How to get the API key
 
-- Cole no código substituindo 'sua_chave_aqui'
+- Visit https://platform.openai.com/api-keys
 
-## ⚡ Funcionalidades:
-- ✅ Interface web intuitiva com Streamlit
+- Create a new API key
 
-- ✅ Upload direto de arquivos CSV
+- Paste it into the code, replacing your_api_key_here
 
-- ✅ Gera resumos inteligentes com GPT-4
+## ⚡ Features
+- ✅ Intuitive web interface with Streamlit
 
-- ✅ Processamento em tempo real
+- ✅ Direct CSV file upload
 
-- ✅ Tratamento de erros robusto
+- ✅ Intelligent summaries generated with GPT-4
 
-- ✅ Compatível com CSVs de qualquer tamanho
+- ✅ Real-time processing
 
-## 🛠 Tecnologias Utilizadas
-- Python 3.8+ - Linguagem principal
+- ✅ Robust error handling
 
-- Pandas - Manipulação e análise de dados
+- ✅ Compatible with CSV files of any size
 
-- OpenAI API - Processamento de linguagem natural
+## 🛠 Technologies Used
 
-- GPT-4 - Modelo de IA para geração de resumos
+- Python 3.8+ – Main programming language
 
-- Streamlit - Framework para aplicações web
+- Pandas – Data manipulation and analysis
 
-## 🤝 Contribuição
-- Contribuições são bem-vindas! Sinta-se à vontade para:
+- OpenAI API – Natural language processing
 
-- Reportar bugs
+- GPT-4 – AI model for summary generation
 
-- Sugerir novas features
+- Streamlit – Web application framework
 
-- Enviar pull requests
+## 🤝 Contribution 
+## Contributions are welcome! Feel free to:
 
-- Economize horas de análise manual! 🚀
+- Report bugs
 
+- Suggest new features
+
+- Submit pull requests
